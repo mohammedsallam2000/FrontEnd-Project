@@ -1,0 +1,126 @@
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        font-family: 'M PLUS 1p', sans-serif;
+    }
+    /* Start Header */
+    
+    .header .slider .img {
+        width: 100%;
+    }
+    
+    .header .navbar {
+        background-color: black;
+        color: #fff;
+        overflow: hidden;
+        padding: 10px;
+    }
+    
+    .header .navbar a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 14px 16px;
+    }
+    
+    .header .navbar a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    /* End Header */
+    /* Start Band */
+    
+    .band {
+        text-align: center;
+    }
+    
+    .container {
+        margin: auto;
+        width: 700px;
+        line-height: 1.5;
+        padding: 15px;
+    }
+    
+    .band .container h2 {
+        font-size: 25px;
+        letter-spacing: 3px;
+        padding-bottom: 20px;
+    }
+    
+    .band .container i {
+        color: #848484;
+        font-size: 16px;
+    }
+    
+    .band .container p {
+        padding-top: 20px;
+        text-align: justify;
+        letter-spacing: .5px;
+    }
+    /* End Band */
+    /* start tour */
+    
+    .characters {
+        display: flex;
+        width: 100%;
+        padding: 20px;
+        background-color: rgb(241, 241, 241);
+        height: 515px;
+    }
+    
+    .characters>div {
+        flex-grow: 1;
+    }
+    
+    .ch1,
+    .ch2,
+    .ch3 {
+        width: 300px;
+        height: 300px;
+        text-align: center;
+    }
+    
+    .characters>div>img {
+        width: 440px;
+        padding: 10px 10px;
+    }
+    
+    .characters>div>img:hover {
+        width: 450px;
+    }
+    /* End tour */
+    /* Start Footer */
+    
+    .footer {
+        background-color: black;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .footer {
+        text-align: center;
+    }
+    
+    .footer .fa {
+        color: white;
+        font-size: 30px;
+        padding-right: 5px;
+    }
+    
+    .footer .fa:hover {
+        font-size: 35px;
+    }
+    
+    .footer p {
+        color: white;
+        padding-top: 20px;
+    }
+    
+    a {
+        cursor: pointer;
+    }
+    /* End Footer */

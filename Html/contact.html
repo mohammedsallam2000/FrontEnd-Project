@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!-- Main meta rules -->
+    <meta charset="UTF-8" />
+    <title>Our Template</title>
+    <!-- Very nice reset -->
+    <link rel="stylesheet" href="/Css/normalize.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Main Css style file -->
+    <link rel="stylesheet" href="/Css/style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="/Js/html5shiv.min.js"></script>
+</head>
+
+<body>
+    <div id="contact">
+        <h2>Contact Us</h2>
+        <form id="form" onsubmit="return sendMessage()">
+            <label for="fisrtName">Name</label>
+            <input required type="text" id="name" placeholder="Enter your name" />
+            <label for="email">Email</label>
+            <input required type="email" name="email" id="email" placeholder="Enter your email" />
+            <br>
+            <label>Message</label>
+            <textarea required>   
+            </textarea>
+            <button id="btnSend">Send <i class="fa fa-lg fa-arrow-right"></i></button>
+        </form>
+    </div>
+
+    <div id="result" class="animate__animated animate__backInLeft">
+        <p id="paragraph"></p>
+    </div>
+    <!-- js -->
+    <script src="/Js/main.js"></script>
+
+</body>
+
+</html>
